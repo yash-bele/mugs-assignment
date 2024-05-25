@@ -97,7 +97,7 @@ export default function Contact() {
         </form>
       </div>
       <Snackbar type="success" openSnackbar={openSnackbar} setOpenSnackbar={setOpenSnackbar}>
-        Success! I'll reach out to you soon!
+        Success! I&apos;ll reach out to you soon!
       </Snackbar>
     </>
   );

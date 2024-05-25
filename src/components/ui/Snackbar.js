@@ -8,6 +8,7 @@ const Snackbar = ({ children, type, openSnackbar, setOpenSnackbar }) => {
       setOpenSnackbar(false);
     }, 5000);
     return () => clearTimeout(timeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [openSnackbar]);
 
   return (

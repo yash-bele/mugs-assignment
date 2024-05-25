@@ -30,8 +30,8 @@ export default function About() {
         <div className="pt-5 sm:pt-10 px-5 sm:px-10 lg:px-20">
           <p className="w-fit lg:w-2/4 text-lg sm:text-xl">
             Experienced in crafting seamless user experiences through the MERN stack, with a strong
-            focus on React.js and Next.js. With over 2 year of hands-on experience, I've honed my
-            skills in building dynamic and responsive web applications.
+            focus on React.js and Next.js. With over 2 year of hands-on experience, I&apos;ve honed
+            my skills in building dynamic and responsive web applications.
           </p>
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -50,7 +50,7 @@ export default function About() {
           variants={variants}
           className="absolute z-10 top-5 right-5 rounded-2xl h-32 w-28 overflow-hidden"
         >
-          <Image src="/images/profile.jpg" fill />
+          <Image src="/images/profile.jpg" alt="profile" fill />
         </motion.div>
       </div>
     </div>
