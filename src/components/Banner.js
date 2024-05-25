@@ -6,7 +6,7 @@ export default function Banner() {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.25"
-      className="h-screen px-5 sm:px-10 lg:px-20 flex items-center justify-center sm:justify-between"
+      className="h-[75vh] sm:h-screen px-5 sm:px-10 lg:px-20 flex items-center justify-center sm:justify-between"
     >
       <h1 className="font-founders-grotesk text-7xl sm:text-8xl lg:text-9xl leading-[1] sm:leading-[0.8] lg:leading-[0.8] flex flex-col items-center sm:items-start">
         <span>I CREATE</span>
