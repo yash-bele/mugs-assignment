@@ -71,6 +71,7 @@ export default function Contact() {
                 id="email"
                 value={values.email}
                 onChange={handleChange}
+                required
                 type="text"
                 spellCheck="false"
                 placeholder="Enter your email*"
